@@ -1,0 +1,42 @@
+{
+  "name": "restify-api-template",
+  "version": "0.0.1",
+  "description": "A template repository to use when creating a new API service.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty:code": "prettier --write *.ts",
+    "pretty:project": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/4lch4/Restify-API-Template.git"
+  },
+  "keywords": [
+    "Restify",
+    "API",
+    "Template"
+  ],
+  "author": {
+    "name": "4lch4",
+    "email": "git@4lch4.dev",
+    "url": "https://4lch4.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/4lch4/Restify-API-Template/issues"
+  },
+  "homepage": "https://github.com/4lch4/Restify-API-Template#readme",
+  "devDependencies": {
+    "pm2": "^4.4.0",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "@types/restify": "^8.4.2",
+    "bunyan": "^1.8.14",
+    "restify": "^8.5.1",
+    "restify-router": "^0.6.1",
+    "restify-url-semver": "^1.1.1"
+  }
+}
